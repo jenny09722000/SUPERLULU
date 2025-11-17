@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPERLULU可麗露專賣店</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">SUPERLULU可麗露專賣店</div>
+
+        <button class="menu-toggle" id="menuToggle">☰</button>
+
+        <nav>
+            <ul class="nav-links" id="mainNav">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="about.html">品牌介紹</a></li>
+                <li><a href="products.html" class="active-link">所有商品</a></li> 
+                <li><a href="faq.html">購物須知</a></li>
+                <li><a href="contact.html">聯絡我們</a></li>
+            </ul>
+        </nav>
+        <ul class="utility-links" id="utilNav">
+            <li><a href="login.html">會員登入</a></li>
+            <li><a href="cart.html">🛒 購物車</a></li>
+        </ul>
+    </header>
+
+  <main class="content">
+    <h1>🎁 所有商品</h1>
+    <p>為您精心挑選的甜點，點擊加入購物車。</p>
+    
+    <div class="product-grid">
+        <div class="product-item">
+            <img src="placeholder.png" alt="手工餅乾" style="width: 100%; height: 180px; background: #EEE; object-fit: cover;">
+            <h3>手工餅乾禮盒</h3>
+            <p>NT$ 450</p>
+            <button class="add-to-cart-btn" data-product-id="1">加入購物車</button>
+        </div>
+        
+        <div class="product-item">
+            <img src="placeholder.png" alt="經典蛋糕" style="width: 100%; height: 180px; background: #EEE; object-fit: cover;">
+            <h3>經典法式蛋糕</h3>
+            <p>NT$ 890</p>
+            <button class="add-to-cart-btn" data-product-id="2">加入購物車</button>
+        </div>
+        
+        <div class="product-item">
+            <img src="placeholder.png" alt="限定禮盒" style="width: 100%; height: 180px; background: #EEE; object-fit: cover;">
+            <h3>聖誕限定禮盒</h3>
+            <p>NT$ 1200</p>
+            <button class="add-to-cart-btn" data-product-id="3">加入購物車</button>
+        </div>
+        
+        </div>
+</main>
+    
+    <footer class="footer">
+        <p>&copy; SUPERLULU可麗露專賣店 All rights reserved.</p>
+    </footer>
+
+
+    
+    /*連結script.js*/
+    <script src="script.js"></script>
+
+</body>
+</html>
